@@ -19,6 +19,7 @@ t=cputime;
 conv_x=conv2(img,kernel_gx,'same');
 conv_y=conv2(img,kernel_gy,'same');
 
+%taking each pixel at a time, in 2D Matrix i j
 for i = 1: size (conv_x,1)
        for j=1: size(conv_y,2)
            %B (i, j) = abs (conv_x(i,j)) + abs (conv_y(i,j)); 
