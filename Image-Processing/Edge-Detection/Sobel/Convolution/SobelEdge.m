@@ -1,7 +1,8 @@
 %%%Edge Detection using Soble kernel
 %%% Author: Alok Mistry
 %%% image: imref.bmp 640x960
-%getting image
+
+%getting image from local folder
 img=imread('imgref.bmp');
 figure(1);imshow(img);
 img=rgb2gray(img);
